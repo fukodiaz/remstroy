@@ -169,6 +169,82 @@ button {
 	background-color: #F57065;
 }
 
+/* interim content */
+.boxInsideContent {
+	margin: 0 375px;
+}
+
+.intro {
+	margin: 80px 0;
+}
+
+.headIntro {
+	margin-bottom: 30px;
+	font-size: 48px;
+	line-height: 1.25;
+	letter-spacing: -2%;
+	color: #303030;
+	font-weight: 700;
+}
+
+.mainInfo {
+	display: flex;
+	margin-bottom: 80px;
+}
+
+.textInfo p {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 1.45;
+	color: #484848;
+	font-weight: 400;
+}
+
+.textInfo p:last-of-type {
+	margin-bottom: 0;
+}
+
+.boxVideo {
+	margin-left: 60px;
+	min-width: 570px;
+	min-height: 320px;
+	background-color: rgb(238, 237, 237);
+	border-radius: 12px;
+	background: url('/local/templates/stroy/images/video_poster_intro.png') no-repeat center center;
+	background-size: cover;
+	background-position: center -25px;
+}
+
+.listAdvantages {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.itemAdvantage {
+	max-width: 270px;
+}
+
+.boxImgAdvan {
+	display: inline-flex;
+	margin-bottom: 24px;
+}
+
+.headAdvantage {
+	margin-bottom: 12px;
+	font-size: 20px;
+	line-height: 1.25;
+	color: #484848;
+	font-weight: 700;
+}
+
+.descAdvantage {
+	font-size: 16px;
+	line-height: 1.45;
+	color: #484848;
+	font-weight: 400;
+}
+
 /* footer */
 .innerFooter {
 	margin: 40px 375px;
