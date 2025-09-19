@@ -1,0 +1,32 @@
+.listTopMenu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.itemLinkTopMenu {
+	margin-right: 32px;
+	font-size: 16px;
+	line-height: 1.45;
+	font-weight: 600;
+	color: #484848;
+}
+
+.itemLinkTopMenu:last-of-type {
+	margin-right: 0px;
+}
+
+.itemLinkTopMenu a {
+	display: inline-flex;
+}
+
+.itemLinkTopMenu a:hover,
+.itemLinkTopMenu a:active,
+.itemLinkTopMenu a:focus {
+	color: #F34C3F;
+	text-decoration: none;
+}
+
+.itemLinkTopMenu.active a {
+	color: #F34C3F;
+}

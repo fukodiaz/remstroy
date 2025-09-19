@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&amp;display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+    line-height: 24px;
+	color: #484848;
+	background:#fff;
+	overflow-x:hidden;
+ }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6, p, div {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;		   
+}	
+
+a {
+	text-decoration: none;
+}
+
+
+ul {
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+
+button {
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+.mainWrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+	margin: 0 375px;
+	font-size: 16px;
+	line-height: 1.45;
+	font-weight: 600;
+}
+
+.innerHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	min-height: 80px;
+	/* max-height: 80px; */
+}
+
+.mainNav {
+	display: flex;
+}
+
+.boxLogo {
+	display: inline-flex;
+	margin-right: 132px;
+}
+
+.boxTopContacts {
+	display: flex;
+	align-items: center;
+}
+
+.boxHeaderPhone {
+	margin-right: 32px;
+}
+
+.listSocialLinks {
+	display: flex;
+}
+
+.itemSocialLink {
+	display: inline-flex;
+	margin-right: 16px;
+}
+
+.itemSocialLink:last-of-type {
+	margin-right: 0px;
+}
+
+.socialLink {
+	display: inline-flex;
+}

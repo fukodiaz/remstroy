@@ -1,6 +1,6 @@
 <?php
 	const DEFAULT_TEMPLATE_PATH = '/local/templates/.default';
-	const DEFAULT_TEMPLATE_PATH_IMG = '/local/templates/remstroy';
+	const DEFAULT_TEMPLATE_PATH_IMG = '/local/templates/stroy';
 
 	function debug($data) {
 		echo "<pre>" . print_r($data, 1) . "</pre>";
