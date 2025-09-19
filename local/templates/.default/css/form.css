@@ -1,0 +1,177 @@
+.modalContainer {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.modalContainer.openModal {
+    display: block;
+}
+
+.modalDialog {
+    position: absolute;
+    max-width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* top: 235px; */
+    top: 40px;
+}
+
+.modalContent {
+    position: relative;
+    box-sizing: border-box;
+    padding: 32px 40px 40px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    scrollbar-width: none;
+}
+
+.modalHeading {
+    margin-bottom: 20px;
+    font-size: 34px;
+	line-height: 1.25;
+    font-weight: 700;
+	letter-spacing: -2%;
+	color: #484848;
+}
+
+.modalExplan {
+    margin-bottom: 30px;
+    font-size: 16px;
+	line-height: 1.45;
+    font-weight: 400;
+	letter-spacing: -2%;
+	color: #484848;
+}
+
+.btnCloseModal {
+    display: inline-flex;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+
+}
+
+.formModal {
+    /* margin-bottom: 30px; */
+}
+
+.listFieldsForm {
+    margin-bottom: 30px;
+}
+
+.itemField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.itemField label {
+    margin-bottom: 12px;
+    font-size: 16px;
+	line-height: 1.45;
+    font-weight: 400;
+	color: #B0B0B0;
+}
+
+.labelPhone {
+    position: relative;
+    display: inline-flex;
+}
+
+.labelPhone sup {
+    position: relative;
+    top: .89em;
+}
+
+.inputPhone {
+    box-sizing: border-box;
+    padding: 15px 20px;
+    width: 100%;
+    min-height: 53px;
+}
+
+.areaMessage {
+    display: block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    width: 100%;
+    min-height: 120px;
+    resize: none;
+    overflow: auto;
+}
+
+.inputPhone,
+.areaMessage {
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 400;
+    color: #484848;
+    border: 1px solid #B0B0B0;
+    border-radius: 8px;
+    outline: 0;
+}
+
+.inputPhone::placeholder,
+.areaMessage::placeholder {
+    color: #B0B0B0;
+}
+
+.inputPhone:hover,
+.areaMessage:hover {
+    border-color: #484848;
+}
+
+/* confirm */
+.itemConfirm {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.labelConfirm {
+    margin-right: 16px;
+    min-width: 16px;
+    max-width: 16px;
+    min-height: 16px;
+    max-height: 16px;
+    border: 1px solid #B0B0B0;
+    border-radius: 2px;
+}
+
+.checkConfirm:checked+.labelConfirm {
+    background-image: url(/local/templates/stroy/images/icons/confirm.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #28B6FF;
+    border-color: #28B6FF;
+}
+
+.checkConfirm:checked+.labelConfirm:hover {
+    background-color: #3DBDFF;
+    border-color: #3DBDFF;
+}
+
+.labelConfirm:hover {
+    border-color: #28B6FF;
+    cursor: pointer;
+}
+
+.textConfirm {
+    position: relative;
+    margin-top: -4px;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 400;
+    color: #B0B0B0;
+}

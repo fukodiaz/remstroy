@@ -94,7 +94,13 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 				</div>
 			</div>
 		</div>
-</div>
+	</div>
+	<?php
+		$path = DEFAULT_TEMPLATE_PATH . "/include/form_amount.php";
+		if (file_exists($_SERVER['DOCUMENT_ROOT'] . $path)) {
+    		$APPLICATION->IncludeFile($path, Array(), Array("MODE"=>"html"));
+		}
+	?>
 		<!-- scripts -->
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
