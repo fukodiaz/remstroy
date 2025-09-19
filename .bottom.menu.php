@@ -1,8 +1,29 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Карта сайта", 
-		"search/map.php", 
+		"О компании", 
+		"about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Продукция", 
+		"products/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"reviews/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -10,13 +31,6 @@ $aMenuLinks = Array(
 	Array(
 		"Контакты", 
 		"contacts/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Вход на сайт", 
-		"auth.php", 
 		Array(), 
 		Array(), 
 		"" 
