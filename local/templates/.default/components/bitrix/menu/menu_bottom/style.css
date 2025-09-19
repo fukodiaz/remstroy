@@ -1,0 +1,34 @@
+.listFooterMenu {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.itemLinkFooterMenu {
+	margin-bottom: 12px;
+	font-size: 16px;
+	line-height: 1.45;
+	font-weight: 400;
+	color: #484848;
+}
+
+.itemLinkFooterMenu:last-of-type {
+	margin-bottom: 0px;
+}
+
+
+.itemLinkFooterMenu a {
+	display: inline-flex;
+	color: #484848;
+}
+
+.itemLinkFooterMenu a:hover,
+.itemLinkFooterMenu a:active,
+.itemLinkFooterMenu a:focus {
+	color: #F34C3F;
+	text-decoration: none;
+}
+
+.itemLinkFooterMenu.active a {
+	color: #F34C3F;
+}
