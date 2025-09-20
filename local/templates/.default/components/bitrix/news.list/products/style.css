@@ -1,0 +1,97 @@
+.products {
+    padding: 80px 0;
+}
+
+.headTypesProds {
+    margin-bottom: 20px;
+    font-size: 16px;
+	line-height: 1.45;
+    font-weight: 600;
+	color: #484848;
+}
+
+.listTypesProds {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.itemTypeProds {
+    margin-right: 16px;
+}
+
+.itemTypeProds:last-of-type {
+    margin-right: 0;
+}
+
+.boxProducts {
+    position: relative;
+}
+
+.listProducts {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemProduct {
+    display: flex;
+}
+
+.itemProductHidden {
+    display: none;
+}
+
+.linkProduct {
+    display: inline-flex;
+    margin-right: 30px;
+    min-width: 323px;
+    max-width: 323px;
+    min-height: 460px;
+    max-height: 460px;
+    background-color: #f0eeee;
+}
+
+.infoProduct {
+    flex-grow: 1;
+}
+
+.textPreview {
+    margin-bottom: 12px;
+    font-size: 14px;
+	line-height: 1;
+    font-weight: 400;
+	color: #B0B0B0;
+}
+
+.nameProduct {
+    margin-bottom: 20px;
+    font-size: 34px;
+	line-height: 1.25;
+    font-weight: 700;
+    letter-spacing: -2%;
+	color: #484848;
+}
+
+.productDescription {
+    margin-bottom: 24px;
+    font-size: 16px;
+	line-height: 1.45;
+    font-weight: 400;
+	color: #484848;
+}
+
+.btnPrevArrowProduct,
+.btnNextArrowProduct {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btnPrevArrowProduct {
+    left: -80px;
+}
+
+.btnNextArrowProduct {
+    right: -80px;
+}

@@ -16,12 +16,15 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 			Asset::getInstance()->addCss(DEFAULT_TEMPLATE_PATH . "/css/bootstrap.css");
 			Asset::getInstance()->addCss(DEFAULT_TEMPLATE_PATH . "/css/style.css");
             Asset::getInstance()->addCss(DEFAULT_TEMPLATE_PATH . "/css/form.css");
+            Asset::getInstance()->addCss(DEFAULT_TEMPLATE_PATH . "/css/owl.carousel.min.css");
 
 			Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/jquery.min.js");
+            Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/owl.carousel.min.js");
 			Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/move-top.js");
 			Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/scripts.js");
 
             Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/form.js");
+            Asset::getInstance()->addJs(DEFAULT_TEMPLATE_PATH . "/js/sliders.js");
 
 			Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, initial-scale=1">');
 			Asset::getInstance()->addString('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');

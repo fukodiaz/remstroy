@@ -169,6 +169,37 @@ button {
 	background-color: #F57065;
 }
 
+.btnSecond {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    font-size: 14px;
+	line-height: 1;
+    font-weight: 700;
+	color: #484848;
+    border-radius: 8px;
+	border: 1px solid #28B6FF;
+}
+
+.btnSecond:hover,
+.btnSecond:focus {
+	border-color: 2px solid #28B6FF;
+	color: #B0B0B0;
+}
+
+.btnSecondActive {
+	color: #fff;
+	background-color: #53C5FF;
+	border: unset;
+}
+
+.btnSecondActive:hover,
+.btnSecondActive:focus {
+	background-color: #28B6FF;
+	color: #fff;
+}
+
 /* interim content */
 .boxInsideContent {
 	margin: 0 375px;
