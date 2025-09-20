@@ -205,6 +205,7 @@ button {
 }
 
 .boxVideo {
+	position: relative;
 	margin-left: 60px;
 	min-width: 570px;
 	min-height: 320px;
@@ -213,6 +214,21 @@ button {
 	background: url('/local/templates/stroy/images/video_poster_intro.png') no-repeat center center;
 	background-size: cover;
 	background-position: center -25px;
+}
+
+.btnPlayVideo {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 72px;
+	height: 48px;
+	background-color: rgba(0,0,0,.5);
+	backdrop-filter: blur(8px);
+	border-radius: 12px;
 }
 
 .listAdvantages {

@@ -1,0 +1,33 @@
+.works {
+    padding-top: 80px; 
+}
+
+.headingWorks {
+    margin: 0 375px 40px;
+    font-size: 34px;
+	line-height: 1.25;
+	color: #484848;
+	font-weight: 700;
+    letter-spacing: -2%;
+}
+
+.listWorks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+}
+
+.itemWork {
+    display: inline-flex;
+}
+
+.linkWork {
+    display: inline-flex;
+}
+
+.linkWork img {
+    max-width: 480px;
+    min-width: 480px;
+    max-height: 360px;
+}

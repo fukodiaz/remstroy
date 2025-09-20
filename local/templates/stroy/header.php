@@ -26,6 +26,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 			Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, initial-scale=1">');
 			Asset::getInstance()->addString('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');
 			Asset::getInstance()->addString('<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&amp;display=swap" rel="stylesheet">');
+            Asset::getInstance()->addString('<link rel="icon" type="image/svg" href="/favicon.svg" />');
 		?>
 	</title>
 </head>
